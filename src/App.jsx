@@ -3,8 +3,6 @@ import liff from "@line/liff";
 import "./App.css";
 
 import Form from './components/Form';
-// import Form from './component/Form';
-
 
 function App() {
   const [message, setMessage] = useState("");
@@ -17,8 +15,7 @@ function App() {
   const initializeLIFF = () => {
     liff
       .init({
-        // liffId: import.meta.env.VITE_LIFF_ID // ローカルではこっち
-        liffId: VITE_LIFF_ID // Netlify は.env使えないためこっち。代わりにNetlifyに環境変数設定が必要
+        liffId: import.meta.env.VITE_LIFF_ID // ローカルではこっち
       })
       .then(() => {
         setMessage("LIFF init succeeded.");
