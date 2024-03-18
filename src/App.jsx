@@ -30,7 +30,6 @@ function App() {
   return (
     <div className="App">
       <h1>こちらの条件で検索</h1>
-      {message && <p>{message}</p>}
       {error && (
         <p>
           <code>{error}</code>
