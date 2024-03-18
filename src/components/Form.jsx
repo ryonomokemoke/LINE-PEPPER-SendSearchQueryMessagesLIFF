@@ -49,7 +49,7 @@ export default function Form() {
       <form onSubmit={handleSubmit}>
 
         <div className="form-container">
-          <label htmlFor="date">日付　　　　:</label>
+          <label htmlFor="date">日付　　　　</label>
           <input 
             type="date"
             id="date" 
@@ -60,7 +60,7 @@ export default function Form() {
         </div>
         
         <div className="form-container">
-          <label htmlFor="place">場所　　　　:</label>
+          <label htmlFor="place">場所　　　　</label>
           <input 
             type="text" 
             id="place" 
@@ -71,7 +71,7 @@ export default function Form() {
         </div>
 
         <div className="form-container">
-          <label htmlFor="budget">予算　　　　:</label>
+          <label htmlFor="budget">予算　　　　</label>
           <input 
             type="text" 
             id="budget" 
@@ -82,7 +82,7 @@ export default function Form() {
         </div>
 
         <div className="form-container">
-          <label htmlFor="freeword">フリーワード:</label>
+          <label htmlFor="freeword">フリーワード</label>
           <input 
             type="text" 
             id="freeword" 
