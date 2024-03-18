@@ -24,7 +24,8 @@ function App() {
       .catch((error) => {
         setMessage("LIFF init failed.");
         setError(`${error}`);
-        alert(error)
+        alert(error);
+        alert(Config.liffId);
       });
   };
 
