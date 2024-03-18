@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import liff from "@line/liff";
 import "./Form.css"; // CSSファイルをインポート
 
-export default function Form({ initializeLIFF }) {
+export default function Form() {
   const [formData, setFormData] = useState({
     date: "",
     place: "",
