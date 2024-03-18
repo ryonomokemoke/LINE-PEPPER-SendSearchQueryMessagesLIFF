@@ -19,19 +19,17 @@ function App() {
       })
       .then(() => {
         setMessage("LIFF init succeeded.");
-        alert(message)
       })
       .catch((error) => {
         setMessage("LIFF init failed.");
         setError(`${error}`);
         alert(error);
-        alert(Config.liffId);
       });
   };
 
   return (
     <div className="App">
-      <h1>create-liff-app</h1>
+      <h1>こちらの条件で検索</h1>
       {message && <p>{message}</p>}
       {error && (
         <p>
