@@ -17,7 +17,8 @@ function App() {
   const initializeLIFF = () => {
     liff
       .init({
-        liffId: import.meta.env.VITE_LIFF_ID
+        // liffId: import.meta.env.VITE_LIFF_ID // ローカルではこっち
+        liffId: VITE_LIFF_ID // Netlify は.env使えないためこっち。代わりにNetlifyに環境変数設定が必要
       })
       .then(() => {
         setMessage("LIFF init succeeded.");
