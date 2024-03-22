@@ -78,12 +78,12 @@ export default function Form() {
             value={formData.budget} 
             onChange={handleChange}
           >
+            <option value=""></option>
             <option value="1000">1,000円</option>
             <option value="2000">2,000円</option>
             <option value="3000">3,000円</option>
             <option value="5000">5,000円</option>
             <option value="8000">8,000円</option>
-            <option value="10000">10,000円</option>
             {/* 他の選択肢を必要に応じて追加 */}
           </select>
         </div>
