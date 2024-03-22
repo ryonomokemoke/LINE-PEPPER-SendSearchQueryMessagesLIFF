@@ -86,13 +86,6 @@ export default function Form() {
             <option value="10000">10,000円</option>
             {/* 他の選択肢を必要に応じて追加 */}
           </select>
-          {/* <input 
-            type="text" 
-            id="budget" 
-            name="budget" 
-            value={formData.budget} 
-            onChange={handleChange} 
-          /> */}
         </div>
 
         <div className="form-container">
